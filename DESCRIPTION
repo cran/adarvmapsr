@@ -1,0 +1,44 @@
+Package: adarvmapsr
+Title: Interactive Epidemiological Spot Maps for India
+Version: 0.1.20
+Authors@R: c(
+    person("Muniraj", "Mallesan", email = "adarv@nieicmr.org.in",
+           role = c("aut", "cre")),
+    person("Sharan", "Murali", role = "aut"),
+    person("Manikandan", "K", role = "ctb"),
+    person("Shanmuga Sundharam", "P", role = "ctb"),
+    person("Yogita", "Chaudhary", role = "ctb"),
+    person("Barath", "U", role = "ctb"),
+    person("Balaji", "S", role = "ctb"),
+    person("Deepana", "R", role = "ctb"))
+Description: Build interactive spot maps for epidemiological case-control
+    data in India. Supports automatic detection of latitude, longitude, and
+    outcome columns, spatial joining with bundled state and district
+    boundaries, and produces interactive 'HTML' maps with dot-density and
+    spot-pin display modes. The bundled India state and district boundaries
+    are sourced from the Survey of India and used under the Government Open
+    Data License - India (GODL-India,
+    <https://data.gov.in/government-open-data-license-india>).
+License: MIT + file LICENSE
+URL: https://github.com/ADARV-Epi-hub/adarvmapsr
+BugReports: https://github.com/ADARV-Epi-hub/adarvmapsr/issues
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: sf, leaflet, htmltools, htmlwidgets, readr, readxl, stats,
+        utils
+Suggests: testthat (>= 3.0.0), knitr, rmarkdown
+Config/testthat/edition: 3
+Config/roxygen2/version: 8.0.0
+NeedsCompilation: no
+Packaged: 2026-11-04 04:39:02 UTC; Muniraj Mallesan
+Author: Muniraj Mallesan [aut, cre],
+  Sharan Murali [aut],
+  Manikandan K [ctb],
+  Shanmuga Sundharam P [ctb],
+  Yogita Chaudhary [ctb],
+  Barath U [ctb],
+  Balaji S [ctb],
+  Deepana R [ctb]
+Maintainer: Muniraj Mallesan <adarv@nieicmr.org.in>
+Repository: CRAN
+Date/Publication: 2026-11-25 08:50:02 UTC
